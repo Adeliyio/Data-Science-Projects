@@ -88,7 +88,7 @@ s3_input_train = sagemaker.TrainingInput(s3_data='s3://{}/{}/train'.format("test
 ```
 Same way we can store the test data.
 
-## 5) Implement the model as shown in [Notebook](https://github.com/Pradnya1208/Build-train-and-deploy-ML-model-using-AWS-Sagemaker/blob/main/Bank%20application%20using%20AWS%20Sagemaker.ipynb)
+## 5) Implement the model as shown in [Notebook]([https://github.com/Pradnya1208/Build-train-and-deploy-ML-model-using-AWS-Sagemaker/blob/main/Bank%20application%20using%20AWS%20Sagemaker.ipynb](https://github.com/Adeliyio/Data-Science-Projects/blob/main/Build_Train_Deploy_ML%20Model%20on%20AWS/Bank%20application%20using%20AWS%20Sagemaker.ipynb))
 
 Following code automatically looks for the XGBoost image URI and builds and XGBoost container
 
