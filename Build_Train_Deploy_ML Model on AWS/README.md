@@ -128,7 +128,7 @@ xgb_predictor.serializer = csv_serializer # set the serializer type
 predictions = xgb_predictor.predict(test_data_array).decode('utf-8') # predict!
 predictions_array = np.fromstring(predictions[1:], sep=',') # and turn the prediction into an array
 ```
-### Results:
+## Results:
 ```
 Overall Classification Rate: 89.7%
 
@@ -138,7 +138,7 @@ No Purchase    91% (10785)    34% (151)
 Purchase        9% (1124)     66% (297) 
 ```
 
-## 10) Delelting the endpoints:
+## 10) Deleting the endpoints:
 This step is necessary to free the resources.
 ```
 sagemaker.Session().delete_endpoint(xgb_predictor.endpoint)
